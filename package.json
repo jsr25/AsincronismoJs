@@ -5,7 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "callback": "node src/callback/index.js",
-    "async": "node src/async/index.js"
+    "async": "node src/async/index.js",
+    "async:challenge": "node src/async/challenge.js"
   },
   "keywords": [
     "callbacks",
@@ -13,5 +14,8 @@
     "async"
   ],
   "author": "Jsr25",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
 }
